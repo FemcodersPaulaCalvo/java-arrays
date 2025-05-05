@@ -44,5 +44,7 @@ public class Boxes {
             String restLettersObj = object.substring(1);
             System.out.println(firstletterObj + restLettersObj +" you didn't pack it, oops!");
         }
+
+        scanner.close();
     }
 }
